@@ -13,6 +13,7 @@ public class NumberSplashes extends HashMap<Integer, String> {
         this.put(5, "Five! Thank goodness! See if you can get more.");
         this.put(6, "Still going? Well done!");
         this.put(10, "Double the first true milestone, never thought you'd get this far.");
+        this.put(42, "WOW, you\'ve reached the Answer to Life, The Universe, and Everything!");
     }
 
     private static final String DEFAULT = "Keep clicking... You'll get there.";
