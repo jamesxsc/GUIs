@@ -32,7 +32,7 @@ public class NumberSplashes extends HashMap<Integer, String> {
 
     private static final String DEFAULT = "Keep clicking... You'll get there.";
 
-    public String get(Integer key) {
+    public String getOrDefault(Integer key) {
         if (this.containsKey(key))
             return this.get(key);
         else
