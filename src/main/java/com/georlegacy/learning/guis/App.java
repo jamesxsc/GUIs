@@ -92,7 +92,7 @@ public class App extends JFrame {
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 clicks++;
-                updateLabel(splashes.get(clicks));
+                updateLabel(splashes.getOrDefault(clicks));
                 updateBar(clicks);
             }
         });

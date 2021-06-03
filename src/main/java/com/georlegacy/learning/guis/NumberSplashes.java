@@ -14,11 +14,25 @@ public class NumberSplashes extends HashMap<Integer, String> {
         this.put(6, "Still going? Well done!");
         this.put(10, "Double the first true milestone, never thought you'd get this far.");
         this.put(42, "WOW, you\'ve reached the Answer to Life, The Universe, and Everything!");
+        this.put(90, "10 more to go and your done!");
+        this.put(95, "5 More till you can stop!");
+        this.put(96, "4 Till the end!");
+        this.put(97, "3!!!");
+        this.put(98, "2!!!!!!!!");
+        this.put(99, "1!");
+        this.put(100, "Lol, you actually thought you where done? :P");
+        this.put(101, "Wow your life is sad");
+        this.put(102, "Ow your still going?");
+        this.put(105, "Well Ill tell you, ");
+        this.put(109, "The end is near!");
+        this.put(110, "or not...");
+        this.put(111, "3 Number Combo!!");
+        this.put(123, "Wasn\'t that as easy as 1, 2, 3!");
     }
 
     private static final String DEFAULT = "Keep clicking... You'll get there.";
 
-    public String get(Integer key) {
+    public String getOrDefault(Integer key) {
         if (this.containsKey(key))
             return this.get(key);
         else
